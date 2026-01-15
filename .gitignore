@@ -1,0 +1,49 @@
+# Ruby / Jekyll
+*.gem
+*.gemspec
+Gemfile
+Gemfile.lock
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+log/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

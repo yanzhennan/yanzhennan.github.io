@@ -1,0 +1,64 @@
+title: 我的个人博客
+description: 这是我的个人博客网站
+baseurl: ""
+url: "https://hi-znyan.github.io"
+
+# 主题设置
+theme: minima
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 导航菜单
+header_pages:
+  - about.md
+  - contact.md
+
+# 作者信息
+author:
+  name: "Znyan"
+  email: "hi_znyan@163.com"
+  github: "hi-znyan"
+  twitter: ""
+  linkedin: ""
+
+# 分页
+paginate: 5
+paginate_path: "/page:num/"
+
+# 时间格式
+timezone: Asia/Shanghai
+
+# 构建设置
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: "highlight"
+
+# 静态文件位置
+include:
+  - .htaccess
+  - _pages
+
+# 排除文件
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "README.md"
+  - "LICENSE.md"
+  - "TODO.md"
+  - "*.swp"
+  - "*.swo"
+  - ".DS_Store"
+  - ".idea"
