@@ -6,8 +6,6 @@ categories: 技术
 tags: jekyll github-pages 博客
 ---
 
-# 如何使用 Jekyll + GitHub Pages 搭建个人网站
-
 ## 什么是 Jekyll 和 GitHub Pages？
 
 Jekyll 是一个静态网站生成器，它可以将 Markdown 文件转换为静态 HTML 网站。GitHub Pages 是 GitHub 提供的静态网站托管服务，它可以免费托管你的 Jekyll 网站。

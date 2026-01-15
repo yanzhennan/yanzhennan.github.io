@@ -6,8 +6,6 @@ categories: 技术
 tags: jrebel 激活 备份
 ---
 
-# JRebel 激活方式二备份
-
 ## 方式二（推荐）
 
 ### 1. 准备反向代理服务包

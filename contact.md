@@ -4,8 +4,6 @@ title: 联系方式
 permalink: /contact/
 ---
 
-# 联系方式
-
 ## 电子邮件
 
 - 邮箱：[hi_znyan@163.com](mailto:hi_znyan@163.com)
