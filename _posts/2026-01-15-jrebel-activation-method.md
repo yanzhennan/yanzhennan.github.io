@@ -46,15 +46,7 @@ tags: jrebel 激活 备份
 
 ![打开激活界面]({{ site.baseurl }}/assets/images/2026-01-15-jrebel-activation/open-activation.png)
 
-#### 2.2 选择激活方式
-
-在弹出的激活窗口中：
-1. 选择 `Connect to License Server` 选项
-2. 准备输入激活信息
-
-![选择激活方式]({{ site.baseurl }}/assets/images/2026-01-15-jrebel-activation/select-activation-method.png)
-
-#### 2.3 生成 GUID
+#### 2.2 生成 GUID
 
 需要生成一个唯一的 GUID 值用于激活：
 
@@ -64,7 +56,7 @@ tags: jrebel 激活 备份
 
 ![生成GUID]({{ site.baseurl }}/assets/images/2026-01-15-jrebel-activation/generate-guid.png)
 
-#### 2.4 输入激活信息
+#### 2.3 输入激活信息
 
 在激活窗口中输入以下信息：
 
@@ -81,15 +73,6 @@ tags: jrebel 激活 备份
 
 ![输入激活信息]({{ site.baseurl }}/assets/images/2026-01-15-jrebel-activation/input-activation-info.png)
 
-#### 2.5 激活成功
-
-如果激活成功，会显示激活成功的提示信息：
-
-- 显示激活状态为 `Activated`
-- 显示许可证有效期等信息
-
-![激活成功]({{ site.baseurl }}/assets/images/2026-01-15-jrebel-activation/activation-success.png)
-
 ### 3. 设置离线使用（重要）
 
 JRebel 激活之后默认是联网使用的，在该模式下，JRebel 会一直联网监测激活信息。为了避免后续出现激活问题，建议设置为离线使用模式：
@@ -98,7 +81,8 @@ JRebel 激活之后默认是联网使用的，在该模式下，JRebel 会一直
 2. 找到并点击 `Work offline` 按钮
 3. 确认切换到离线模式
 
-![设置离线模式]({{ site.baseurl }}/assets/images/2026-01-15-jrebel-activation/set-offline.png)
+![激活成功]({{ site.baseurl }}/assets/images/2026-01-15-jrebel-activation/activation-success.png)
+
 
 ### 4. 关闭代理服务
 
@@ -118,9 +102,3 @@ JRebel 激活之后默认是联网使用的，在该模式下，JRebel 会一直
 4. **版本更新**：定期检查 GitHub 仓库，下载最新版本的反向代理服务包
 
 5. **防火墙设置**：如果遇到连接问题，检查防火墙是否允许程序访问网络
-
-## 图片说明
-
-- 图片存放位置：`/assets/images/2026-01-15-jrebel-activation/`
-- 图片命名：按照步骤中引用的名称保存图片文件
-- 如果缺少图片，可以参考原文 [IDEA jrebel 破解](https://www.cnblogs.com/TvvT-kevin/p/12371148.html) 获取示例图片
