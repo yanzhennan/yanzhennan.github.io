@@ -12,7 +12,7 @@ permalink: /contact/
 
 ## 其他方式
 
-- 博客：[https://hi-znyan.github.io](https://https://yanzhennan.github.io/)
+- 博客：[https://yanzhennan.github.io/](https://yanzhennan.github.io/)
 
 ## 留言板
 
