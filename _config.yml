@@ -19,6 +19,8 @@ header_pages:
 # 作者信息
 author:
   name: "Yzn"
+  bio: "热爱技术，专注于软件开发和技术分享。这里是我记录学习心得、技术实践和生活感悟的地方。"
+  avatar: "/assets/images/avatar.svg"
   email: "hi_znyan@163.com"
   github: "hi-znyan"
   QQ: "735151668"

@@ -3,14 +3,35 @@ layout: default
 ---
 
 <div class="home">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="avatar-img">
+      </div>
+      <div class="hero-info">
+        <h1 class="hero-name">{{ site.author.name }}</h1>
+        <p class="hero-bio">{{ site.author.bio }}</p>
+        <div class="hero-social">
+          {% include social.html %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <div class="page-intro">
+      <h2 class="page-heading">{{ page.title }}</h2>
+      {{ content | markdownify }}
+    </div>
   {%- endif -%}
 
-  {{ content | markdownify }}
-
+  <!-- Posts Section -->
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "文章列表" }}</h2>
+    <div class="section-header">
+      <h2 class="post-list-heading">{{ page.list_title | default: "文章列表" }}</h2>
+    </div>
     <div class="post-cards">
       {%- for post in site.posts -%}
         <article class="post-card">
@@ -20,22 +41,6 @@ layout: default
                 {{ post.title | escape }}
               </a>
             </h3>
-            <div class="post-meta">
-              <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-              {%- if post.categories -%}
-                <span class="post-category">{{ post.categories | join: ", " }}</span>
-              {%- endif -%}
-            </div>
-            {%- if post.excerpt -%}
-              <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-            {%- endif -%}
-            {%- if post.tags -%}
-              <div class="post-tags">
-                {%- for tag in post.tags -%}
-                  <span class="post-tag">{{ tag }}</span>
-                {%- endfor -%}
-              </div>
-            {%- endif -%}
           </div>
         </article>
       {%- endfor -%}
